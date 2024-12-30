@@ -1,0 +1,15 @@
+
+.MuiPaper-elevation9, .MuiPopover-root .MuiPaper-elevation {
+    box-shadow: rgb(145 158 171 / 100%) 0px 0px 2px 0px, rgb(145 158 171 / 100%) 0px 12px 24px -4px !important;
+}
+.MuiMenuItem-root:hover {
+    /* background-color: rgb(255, 212, 212) !important; */
+
+}
+.MuiMenuItem-root[disabled] {
+    opacity: 1 !important; 
+    pointer-events: none; 
+  }
+  .MuiPaper-root {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }

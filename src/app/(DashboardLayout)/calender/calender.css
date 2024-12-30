@@ -1,0 +1,34 @@
+/* Apply rounded borders to the overall calendar */
+.custom-fullcalendar .fc {
+  border-radius: 12px;
+  color: black;
+  overflow: hidden; /* Ensure content stays within rounded corners */
+}
+
+/* Apply rounded corners to each day cell */
+.custom-fullcalendar .fc-daygrid-day {
+  border-radius: 100px;
+  overflow: hidden;
+  color: black;
+}
+
+/* Rounded corners for event items */
+.custom-fullcalendar .fc-event {
+    color: black;
+    border-radius: 6px;
+}
+
+/* Optional: Add a slight shadow for better appearance */
+.custom-fullcalendar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(108, 127, 144);
+  color: white;
+}
+
+.custom-fullcalendar .fc {
+  border: 2px solid #4caf50; /* Outer border color */
+  border-radius: 12px; /* Rounded corners */
+  overflow: hidden; /* Ensures content stays within rounded corners */
+}

@@ -1,0 +1,47 @@
+@media print {
+  .MuiDataGrid-toolbarContainer {
+    display: none !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainwrapper {
+  background-color: #ffff !important;
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.MuiBox-root .css-bp306l{
+  display: none;
+}
+
+
+
+
+.customSidebar .MuiDrawer-paper {
+  width: 60px !important;
+  min-width: 60px !important;
+  overflow-x: hidden;
+}
+
+.customSidebar .MuiTypography-root {
+  display: none;
+}
+
+.customSidebar .Mui-selected {
+  background-color: #1976d2;
+  color: #fff;
+  border-radius: 4px;
+}
+
+
+
+
+
